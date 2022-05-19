@@ -7,37 +7,42 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <title>Homework1</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <!-- ---------------------------HEADER-------------------- -- -->
     <header class="header">
       <a class="header-logo logo"><span class="logo-accent logo">Web</span>Studio</a>
       <nav class="header-nav">
         <ul class="header-list list">
-          <li class="header-item"><a href="./index.html" class="header-link-link">Студия</a></li>
+          <li class="header-item"><a href="./index.html" class="link current">Студия</a></li>
           <li class="header-item">
-            <a href="./portfolio.html" class="header-link-link">Портфолио</a>
+            <a href="./portfolio.html" class="link">Портфолио</a>
           </li>
-          <li class="header-item"><a href="" class="header-link-link">Контакты </a></li>
+          <li class="header-item"><a href="" class="header-link link">Контакты </a></li>
         </ul>
       </nav>
-      <ul class="header-info-list">
-        <li><a class="header-info" href="maito:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="header-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="header-info list">
+        <li>
+          <a class="header-info link" href="maito:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li><a class="header-tel link" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <main>
+      <!-- -- ---------------------------HERO-------------------- -- -->
       <section class="hero">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button class="hero-btn" type="button">Заказать услугу</button>
+        <div class="hero-btn"><button class="button primary">Заказать услугу</button></div>
       </section>
+      <!-- -- ---------------------------ABOUT-------------------- -- -->
       <section class="about">
-        <h2 class="about-title">Преимущества</h2>
-        <ul class="about-list">
+        <h2 class="visually-hidden">Преимущества</h2>
+        <ul class="about-list list">
           <li class="about-item">
             <h3 class="about-top-text">Внимание к деталям</h3>
             <p class="about-text">
@@ -64,9 +69,10 @@
           </li>
         </ul>
       </section>
+      <!-- -------------------------------WORK--------------------- -->
       <section class="work">
-        <h2 class="work-title">Чем мы занимаемся</h2>
-        <ul class="work-list">
+        <h2 class="work-title title">Чем мы занимаемся</h2>
+        <ul class="work-list list">
           <li class="work-item">
             <img src="./images/about-img1.jpg" alt="программирование " width="370" height="294" />
           </li>
@@ -83,9 +89,10 @@
           </li>
         </ul>
       </section>
+      <!-- - ---------------------------TEAM-------------------- -- -->
       <section class="team">
-        <h2 class="team-title">Наша команда</h2>
-        <ul class="team-list">
+        <h2 class="team-title title">Наша команда</h2>
+        <ul class="team-list list">
           <li class="team-item">
             <img
               src="./images/masters-img1.jpg"
@@ -93,8 +100,8 @@
               width="270"
               height="260"
             />
-            <h3 class="team-top-text">Игорь Демьяненко</h3>
-            <p class="team-text" lang="en">Product Designer</p>
+            <h3 class="team-top-text team">Игорь Демьяненко</h3>
+            <p class="team-text text" lang="en">Product Designer</p>
           </li>
           <li class="team-item">
             <img
@@ -103,8 +110,8 @@
               width="270"
               height="260"
             />
-            <h3 class="team-top-text">Ольга Репина</h3>
-            <p class="team-text" lang="en">Frontend Developer</p>
+            <h3 class="team-top-text team">Ольга Репина</h3>
+            <p class="team-text text" lang="en">Frontend Developer</p>
           </li>
           <li class="team-item">
             <img
@@ -113,8 +120,8 @@
               width="270"
               height="260"
             />
-            <h3 class="team-top-text">Николай Тарасов</h3>
-            <p class="team-text" lang="en">Marketing</p>
+            <h3 class="team-top-text team">Николай Тарасов</h3>
+            <p class="team-text text" lang="en">Marketing</p>
           </li>
           <li class="team-item">
             <img
@@ -123,30 +130,31 @@
               width="270"
               height="260"
             />
-            <h3 class="team-top-text">Михаил Ермаков</h3>
-            <p class="team-text" lang="en">UI Designer</p>
+            <h3 class="team-top-tex team">Михаил Ермаков</h3>
+            <p class="team-text text" lang="en">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
+    <!-- - ---------------------------FOOTER-------------------- -->
     <footer class="footer">
-      <a class="footer-logo" href="">WebStudio</a>
-      <address class="footer-address">
-        <ul class="footer-list">
-          <li class="footer-item">
+      <a class="footer-logo logo"><span class="logo-accent logo">Web</span>Studio</a>
+      <address class="contacts-address">
+        <ul class="contacts-address-list list" >
+          <li class="contacts-item">
             <a
-              class="footer-maps"
+              class="contacts-address link"
               href="https://goo.gl/maps/3nx2QuDcFWaEyub6A"
               target="_blank"
               rel="noopener nofollow noreferrer"
-              >г. Киев, пр-т Леси Украинки, 26</a
-            >
+              >г. Киев, пр-т Леси Украинки, 26
+            </a>
           </li>
-          <li class="footer-item">
-            <a class="footer-info" href="maito:info@devstudio.com">info@devstudio.com</a>
+          <li class=contacts-item">
+            <a class="contacts-address link" href="maito:info@devstudio.com">info@devstudio.com</a>
           </li>
-          <li class="footer-item">
-            <a class="footer-tel" href="tel:+380991111111">+38 099 111 11 11</a>
+          <li class="contacts-item">
+            <a class="contacts-address link" href="tel:+380991111111">+38 099 111 11 11</a>
           </li>
         </ul>
       </address>
