@@ -150,10 +150,14 @@ button {
 
 /*-- ---------------------------TEAM-------------------- -- */
 .team {
+  text-align: center;
+
+  background-color: var(--sec-bg-color);
+}
+.team-list {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  text-align: center;
   color: #212121;
 }
 .text {
@@ -193,7 +197,7 @@ address {
 /*-- ---------------------------PORTFOLIO-------------------- -- */
 .portfolio-btn {
   border: none;
-  background-color: var(--color-white);
+  background-color: var(--sec-bg-color);
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -204,8 +208,8 @@ address {
   cursor: pointer;
   color: #212121;
 }
-.btn:hover,
-.btn:focus {
+.portfolio-btn:hover,
+.portfolio-btn:focus {
   color: var(--color-white);
   background-color: var(--accent-color);
 }
