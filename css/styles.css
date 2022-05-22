@@ -151,17 +151,20 @@ span {
 }
 
 /*-- TEAM         -- */
-.team-top-text {
-  text-align: center;
-
+.team {
   background-color: var(--sec-bg-color);
 }
-.team-list {
+.team-top-text {
+  text-align: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  /* color: var(--primary-font-color); */
 }
+/* .team-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+ color: var(--primary-font-color); */
 .team-text {
   font-weight: 400;
   font-size: 16px;
